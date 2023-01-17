@@ -63,7 +63,7 @@ const Header = () => {
           </div>
         </div>
         {/* RIGHT */}
-        <div className="flex items-center justify-end min-w-fit space-x-2">
+        <div className="pr-3 flex items-center justify-end min-w-fit space-x-2">
           <CgMenuGridO
             size={20}
             className="hidden lg:inline-flex h-10 w-10 bg-[#3a3b3c] text-[#b9bbbe] rounded-full p-2 cursor-pointer hover:bg-[#4e4f50]"
@@ -88,9 +88,6 @@ const Header = () => {
             height={40}
             className="rounded-full cursor-pointer"
           />
-          {/* <p className="hidden xl:inline-flex font-semibold text-sm whitespace-nowrap p-3 max-w-xs">
-          Raphael Marietan
-        </p> */}
         </div>
       </div>
       {showLogout && (
@@ -103,9 +100,7 @@ const Header = () => {
               height={40}
               className="rounded-full cursor-pointer"
             />
-            <p className="hidden sm:inline-flex font-medium">
-              {session?.user.name}
-            </p>
+            <p className=" font-medium">{session?.user.name}</p>
           </div>
           <hr className="w-[90%] mx-auto  text-[#b9bbbe]"></hr>
           <div
@@ -113,7 +108,7 @@ const Header = () => {
             className="flex items-center space-x-5 py-3 px-10 hover:bg-[#3a3b3c] rounded-b-lg cursor-pointer"
           >
             <TbLogout className="text-[#e7e9ec]" size={40} />
-            <p className="hidden sm:inline-flex font-medium">Logout</p>
+            <p className=" font-medium">Logout</p>
           </div>
         </div>
       )}
