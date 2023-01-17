@@ -18,7 +18,8 @@ The design is responsive and goes for mobile mode once under a certain screen wi
 
 ### Demo of the app
 
-<video src="https://user-images.githubusercontent.com/33026272/205785874-5f97c0fb-e0ee-4c96-a12d-c88f64b31d74.mp4">
+<video src="
+https://user-images.githubusercontent.com/33026272/212897506-5f61f660-67bb-4c4b-af0a-639879390649.mp4">
 </video>
 
 
